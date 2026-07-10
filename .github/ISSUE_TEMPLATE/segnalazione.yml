@@ -1,0 +1,49 @@
+name: Segnala un numero spam
+description: Segnala un numero di call center, telemarketing aggressivo o truffa
+title: "Segnalazione: +39"
+labels: ["segnalazione"]
+body:
+  - type: input
+    id: numero
+    attributes:
+      label: Numero di telefono
+      description: "Formato internazionale: +39 seguito dal numero (fissi con lo 0, cellulari senza)."
+      placeholder: "+390212345678"
+    validations:
+      required: true
+  - type: dropdown
+    id: categoria
+    attributes:
+      label: Categoria
+      options:
+        - truffa
+        - finanza
+        - energia
+        - telefonia
+        - sondaggi
+        - pubblicita
+        - ping
+        - altro
+    validations:
+      required: true
+  - type: input
+    id: data
+    attributes:
+      label: Data dell'ultima chiamata
+      placeholder: "2026-07-10"
+    validations:
+      required: true
+  - type: textarea
+    id: descrizione
+    attributes:
+      label: Cosa dicevano / cosa proponevano
+      description: Due righe bastano. Non inserire dati personali tuoi o di altri.
+    validations:
+      required: true
+  - type: checkboxes
+    id: conferme
+    attributes:
+      label: Conferme
+      options:
+        - label: Ho ricevuto personalmente questa chiamata (non è una lista copiata da altri servizi)
+          required: true
