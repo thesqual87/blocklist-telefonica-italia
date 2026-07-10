@@ -12,7 +12,7 @@ da chiunque: app di blocco chiamate (iOS, Android), centralini, FRITZ!Box, ricer
 Il file è [`data/blocklist.csv`](data/blocklist.csv), scaricabile direttamente:
 
 ```
-https://raw.githubusercontent.com/<UTENTE>/blocklist-telefonica-italia/main/data/blocklist.csv
+https://raw.githubusercontent.com/thesqual87/blocklist-telefonica-italia/main/data/blocklist.csv
 ```
 
 Formato (CSV, UTF-8, separatore virgola):
