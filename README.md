@@ -60,5 +60,5 @@ Inclusion requires 2+ independent reports; false positives are removed immediate
 
 ---
 
-Progetto avviato dalla community di **kallm**, app iOS per il blocco dei call
+Progetto avviato dalla community di **KALLM**, app iOS per il blocco dei call
 center. La lista è indipendente e aperta al contributo di chiunque.
