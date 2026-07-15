@@ -51,7 +51,7 @@ sul telemarketing.
 
 ## Come segnalare un numero
 
-Apri una [segnalazione guidata](../../issues/new/choose) — bastano il numero, la
+Apri una [segnalazione guidata](../../issues/new?template=segnalazione.yml) — bastano il numero, la
 categoria e due righe di descrizione. Oppure proponi direttamente una modifica al
 CSV con una pull request.
 
